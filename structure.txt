@@ -1,0 +1,15 @@
+WAutomation/
+├── main.py           ← Entry point, all CLI commands
+├── scraper.py        ← Scrapes group members → saves to DB
+├── adder.py          ← Adds members with instance rotation
+├── webhook.py        ← Real-time left/removed/joined tracking
+├── scheduler.py      ← Runs everything on schedule
+├── config.json       ← Edit this with your actual group JIDs
+├── requirements.txt
+├── core/
+│   ├── api_client.py ← Evolution API wrapper
+│   ├── database.py   ← DB connection
+│   ├── config.py     ← Config loader
+│   └── logger.py     ← Logging
+└── db/
+    └── schema.sql    ← All 8 tables, run once
