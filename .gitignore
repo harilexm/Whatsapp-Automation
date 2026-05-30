@@ -3,3 +3,4 @@ __pycache__/
 config.json
 db/schema.sql
 logs/
+.env/
